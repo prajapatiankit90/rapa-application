@@ -1,0 +1,7 @@
+{
+  "name": "rapacalc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

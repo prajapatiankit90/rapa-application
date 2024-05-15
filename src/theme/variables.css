@@ -1,2 +1,41 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+
+ion-input {
+    border-radius: 10px;
+    border: 1px solid black !important;
+    margin-bottom: 5px;
+    color: black !important;
+    font-size: 15px !important;
+    --highlight-height: 0px !important;   
+}
+
+
+ion-content {
+    --background: #263d59;
+    --background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 74%);
+}
+
+ion-card {
+    --background: #ffff;
+}
+
+ion-label {
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.loginimage {
+    width: fit-content;
+    position: absolute;
+    top: 18%;
+    left: 19%
+}
+
+
+.card {
+    position: absolute;
+    top: 30%;
+    width: -webkit-fill-available;
+}

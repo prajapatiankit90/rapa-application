@@ -1,8 +1,17 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar,IonButton } from '@ionic/react';
 import './Home.css';
+import { Button } from '@mui/material';
+import { useHistory } from 'react-router';
+
+
 
 const Home: React.FC = () => {
+  const navigate = useHistory();
+
+  const login = () => {
+    navigate.push("/login")
+  }
+
   return (
     <IonPage>
       <IonHeader>
@@ -16,7 +25,7 @@ const Home: React.FC = () => {
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer />
+        <IonButton onClick={login}>Contained</IonButton>
       </IonContent>
     </IonPage>
   );

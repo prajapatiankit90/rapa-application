@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">M.Suresh</string>
+    <string name="title_activity_main">M.Suresh</string>
+    <string name="package_name">com.msuresh.io</string>
+    <string name="custom_url_scheme">com.msuresh.io</string>
+</resources>
